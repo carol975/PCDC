@@ -5,11 +5,15 @@
     <title>PCDC:About</title>
 	<link type="text/css" rel="stylesheet" href="styles/index_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<script type="text/javascript" src="scripts/main.js"></script
   </head>
   <body>
 	<header>
-		<h2>Patient Centered Dementia Care</h2>
+	
+		<div class="banner">
+			<h2><a style="text-decoration:none" href="index.html">Patient Centered Dementia Care</a></h2>
+		</div>
+		
+		
 		<nav/>
 			<ul class="topnav" id="myTopnav">
 				<li><a href="index.html">About</a></li>
@@ -19,7 +23,7 @@
 				<li><a href="#">Social World</a></li>
 				<li><a href="#">Personality</a></li>
 				<li><a href="#">Hosipital Environment</a></li>
-				<li><a href="#">Contact</a></li>	
+				<li><a href="#contact-section">Contact</a></li>	
 				<li class="icon">
 					<a href="javascript:void(0);" onclick="dropMenu()">MENU &#x2630;</a>
 				</li>
@@ -33,23 +37,29 @@
 		<img src="images/team.jpg" alt="Our Team">
 	</div>
 	<footer>
-		<div class="wrapper">
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="#">Biography</a></li>
-					<li><a href="#">Health</a></li>
-					<li><a href="#">Cognitive Impairment</a></li>
-					<li><a href="#">Social World</a></li>
-					<li><a href="#">Personality</a></li>
-					<li><a href="#">Hosipital Environment</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+		<a name="contact-section"/>
+		<div class="footer-contact">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>21 Revolution Street</span> Paris, France</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 555 123456</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:abc@xyz.com">abc@xyz.com</a></p>
+			</div>
+
 		</div>
 	
 		
 	</footer>
-	
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script src="https://use.fontawesome.com/277cfbad60.js"></script>
+
   </body>
 </html>
