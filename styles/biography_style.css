@@ -2,6 +2,9 @@
 	padding: 0 2em 2em 2em;	
 }
 
+#bio_team ul li {
+	list-style: none;
+}
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 @media screen and (max-width:44em) {	
@@ -9,6 +12,7 @@
 	
 	#biography {
 		padding: 0 1em 2em 1em;	
+		font-size: 2em;
 	}
 	
 	

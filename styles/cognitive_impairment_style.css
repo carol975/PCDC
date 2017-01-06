@@ -1,0 +1,74 @@
+#cog_imp_head {
+	margin: 0 auto;
+	padding: 0 2em 2em 2em;
+}
+	
+#cog_imp {
+	margin: 0 auto;
+	padding: 0 2em 2em 2em;
+	left: 0;
+	right:0;
+}
+
+#cog_imp table {
+	border-collapse: collapse;
+}
+
+#cog_imp table th, td {
+	height: 20px;
+	text-align: left;
+	padding: 15px;
+	border-bottom: 1px solid #F27E2A;
+
+}
+
+#cog_imp table th {
+	font-size: 20px;
+}
+
+#cog_imp table span {
+	font-weight: bold;
+}
+
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:44em) {	
+	
+	#cog_imp_head {
+		padding: 0 1em 2em 1em;
+		text-align: center;
+	}
+	
+	#cog_imp_head h2 {
+		font-size: 2em;
+	}
+	
+	#cog_imp {
+		padding: 0 1em 2em 1em;
+		overflow-x:auto;
+	}
+
+	
+	#cog_imp table th, td {
+		height: 1.3em;
+		text-align: left;
+		padding: 15px;
+		border-bottom: 1px solid #F27E2A;
+		font-size: 2em;
+	}
+	
+	#cog_imp table th {
+		font-size: 2em;
+	}
+	
+	#cog_imp table span {
+		font-weight: bold;
+	}
+
+
+	
+	
+	
+}
+
