@@ -36,26 +36,30 @@
 @media screen and (max-width:44em) {	
 	
 	#cog_imp_head {
-		padding: 0 1em 2em 1em;
+		padding: 0 0.5em 2em 0.5em;
 		text-align: center;
 	}
 	
 	#cog_imp_head h2 {
-		font-size: 2em;
+		font-size: 1em;
 	}
 	
 	#cog_imp {
-		padding: 0 1em 2em 1em;
+		padding: 0 0.5em 2em 0.5em;
 		overflow-x:auto;
 	}
 
+	#cop_imp > thead {
+		font-size: 0.5em;
+	}
+		
 	
 	#cog_imp table th, td {
 		height: 1.3em;
 		text-align: left;
 		padding: 15px;
 		border-bottom: 1px solid #F27E2A;
-		font-size: 2em;
+		font-size: 1em;
 	}
 	
 	#cog_imp table th {

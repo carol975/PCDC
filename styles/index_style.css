@@ -56,18 +56,16 @@ header nav ul.topnav li.icon {
 }
 
 #about > img {
-	width: 100%;
+	width: 400px;
 	display: block;
 	margin: 0 auto;
 	
 }
 
-
-#biography {
-	padding: 0 2em 2em 2em;	
+#TeamDscp {
+	text-align: center;
 }
-
-
+	
 
 /*-----footer-----*/
 
@@ -128,7 +126,7 @@ footer {
 /*-----responsive design-----*/
 
 /* When the screen is less than 44em wide, hide all list items. Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:44em) {
+@media screen and (max-width:400px) {
 	header nav ul.topnav li:not(:last-child) {display: none;}
 	header nav ul.topnav li.icon {
 		float: right;
@@ -144,7 +142,7 @@ footer {
 
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:44em) {
+@media screen and (max-width:400px) {
 
 	body {
 		font-size: 2em;
@@ -181,11 +179,16 @@ footer {
 	
 	#about {
 		padding: 0 0.5em 2em 0.5em;	
-		font-size: 2em;
+		font-size: 1em;
 
 	}
 	
+	#about > img {	
+		width: 40em;
+		display: block;
+		margin: 0 auto;
 	
+	}
 	
 	/*-----footer-----*/
 	.footer-contact {
