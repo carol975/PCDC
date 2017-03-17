@@ -33,7 +33,7 @@
 
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:44em) {	
+@media screen and (max-width:400px) {	
 	
 	#cog_imp_head {
 		padding: 0 0.5em 2em 0.5em;

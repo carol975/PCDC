@@ -126,7 +126,7 @@ footer {
 /*-----responsive design-----*/
 
 /* When the screen is less than 44em wide, hide all list items. Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:400px) {
+@media screen and (max-width:44em) {
 	header nav ul.topnav li:not(:last-child) {display: none;}
 	header nav ul.topnav li.icon {
 		float: right;
